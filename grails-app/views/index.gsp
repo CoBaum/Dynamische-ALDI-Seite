@@ -63,9 +63,7 @@
         <section>
             <h1>Willkommen zur offiziellen ALDI Nord Testseite! Es erwarten Sie einmalige Angebote!</h1>
             <h1></h1>
-                <a class="teaser" href="/holzbeine">
-                    <g:img dir="/img/" file="Illustration.png" alt="holzbeinwerbung"/>
-                </a>
+            <g:link url="http://localhost:8080/holzbeine"><g:img dir="img" file="Illustration.png" alt="holzbeinteaser"/></g:link>
             <h2>Außerdem – Jetzt Vorbestellen: Handtaschen für Füße!</h2>
             <h3>Exklusiv bei ALDI Nord!</h3>
         </section>
@@ -131,5 +129,4 @@
     </div>
  </footer>
  </body>
- <g:external dir="css" file="styles.css"/>
 </html>

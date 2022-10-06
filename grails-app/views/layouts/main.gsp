@@ -4,7 +4,7 @@
     <asset:stylesheet href="styles.css"/>
     <meta http-equiv="Content-type" content="text/html; charset=utf-8">
     <meta name="layout" content="main">
-    <title>ALDI Nord Testsite</title>
+     <title><g:layoutTitle default="Aldi Nord Testsite" /></title>
  </head>
  <body id="body">
  <header class="header">
@@ -60,15 +60,7 @@
     </div>
  </header>
  <main class="main">
-    <div class="container">
-            <h1>Willkommen zur offiziellen ALDI Nord Testseite! Es erwarten Sie einmalige Angebote!</h1>
-            <h1></h1>
-                <a class="teaser" href="#">
-                    <g:img dir="/img/" file="Illustration.png" alt="holzbeinwerbung"/>
-                </a>
-            <h2>Außerdem  – Jetzt Vorbestellen: Handtaschen für Füße!</h2>
-            <h3>Exklusiv bei ALDI Nord!</h3>
-    </div>
+     <g:layoutBody/>
  </main>
  <footer class="footer">
     <div class="container">
