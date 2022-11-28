@@ -5,6 +5,7 @@
     <meta http-equiv="Content-type" content="text/html; charset=utf-8">
     <meta name="layout" content="main">
      <title><g:layoutTitle default="Aldi Nord Testsite" /></title>
+     <g:layoutHead/>
  </head>
  <body id="body">
  <header class="header">

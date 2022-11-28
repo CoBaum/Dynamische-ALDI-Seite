@@ -27,6 +27,7 @@ class BootStrap {
 
         new Teaser(imageUrl: 'https://i.postimg.cc/YMcngCY5/Illustration.png', teaserUrl: 'http://localhost:8080/holzbeine', name: "mainTeaser", text: "Außerdem – Jetzt Vorbestellen: Handtaschen für Füße!", alt: 'holzbeinTeaser', showOnHomePage: true).save()
 
+        new Teaser(imageUrl: 'https://www.baumschule-horstmann.de/bilder/popup/korea-tanne-m087181_h_0.jpg', teaserUrl: 'http://localhost:8080/holzbeine', name: "Tanne", text: "Platzhalter", alt: "tannenTeaser", showOnHomePage: false).save()
 
     }
 
