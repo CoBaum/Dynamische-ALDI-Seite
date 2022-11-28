@@ -1,5 +1,6 @@
 package dynamische.aldi.seite
 
+import com.fasterxml.jackson.annotation.JsonProperty
 import grails.persistence.Entity
 
 @Entity
@@ -10,6 +11,7 @@ class Teaser {
     String name
     String text
     String id
+    @JsonProperty("objectID")
     String alt
     boolean showOnHomePage
     static mapWith = "mongo"
@@ -26,18 +28,6 @@ class Teaser {
         showOnHomePage blank: false
 
             }
-
-
-
-
-
-    static mapping = {
-
-   
-
-
-
-    }
 
     boolean equals(o) {
       if (this.is(o)) return true

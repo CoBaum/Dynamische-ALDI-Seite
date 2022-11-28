@@ -16,6 +16,9 @@ class UrlMappings {
         "/test"(controller: 'Oberpunkt')
         "/teasers"(controller: 'Teaser')
         "/render"(controller: 'Teaser', action: 'render')
+        "/renderJSON"(controller: 'Teaser_JSON')
+        "/fetchJSON"(controller: 'Teaser_JSON', action: 'jsonify')
+        "/suche"(view:'/resultspage')
     }
 }
 

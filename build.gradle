@@ -23,6 +23,7 @@ apply plugin:"com.bertramlabs.asset-pipeline"
 
 repositories {
     maven { url "https://repo.grails.org/grails/core" }
+    mavenCentral()
 }
 
 configurations {
@@ -35,6 +36,8 @@ configurations {
 dependencies {
     developmentOnly("org.springframework.boot:spring-boot-devtools")
     compileOnly "io.micronaut:micronaut-inject-groovy"
+    implementation 'org.grails.plugins:quartz:2.0.13'
+    implementation 'org.quartz-scheduler:quartz:2.3.2'
     console "org.grails:grails-console"
     implementation "org.springframework.boot:spring-boot-starter-logging"
     implementation "org.springframework.boot:spring-boot-starter-validation"
@@ -59,6 +62,8 @@ dependencies {
     implementation "org.grails.plugins:gsp"
     implementation 'org.grails.plugins:mongodb:7.3.0'
     implementation 'org.mongodb:mongo-java-driver:3.12.11'
+    implementation 'com.algolia:algoliasearch-core:3.16.6'
+    implementation 'com.algolia:algoliasearch-java-net:3.16.6'
     profile "org.grails.profiles:web"
     runtimeOnly "org.glassfish.web:el-impl:2.2.1-b05"
     runtimeOnly "com.h2database:h2"
