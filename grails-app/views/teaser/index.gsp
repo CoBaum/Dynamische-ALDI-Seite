@@ -20,7 +20,7 @@
 <body id="body">
 <main class="main" style="padding-bottom: 95px; padding-top: 95px;">
     <form action="/suche" method="get">
-        <input id="searchbox" placeholder="Search Teasers..." type="text" name="test_index[query]">
+        <input placeholder="Search Teasers..." type="text" name="test_index[query]">
     </form>
         <section>
             <h1></h1>
